@@ -1,0 +1,26 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(137, 156, 162);
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.reset-button:hover {
+    background-color: gray;
+}
+
+.header-status {
+    font-size: 20px;
+}
